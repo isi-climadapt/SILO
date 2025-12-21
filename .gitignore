@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Output files
+*.met
+*.csv
+SILO_*.met
+SILO_*.csv
+
+# Debug logs
+.cursor/debug.log
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+venv/
+env/
+
