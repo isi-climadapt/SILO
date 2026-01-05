@@ -1,8 +1,8 @@
 """
-Example usage of SILO Weather API Client
+SILO Met File Creation
 
-This script demonstrates how to fetch climate data from SILO API
-and export it to both APSIM .met format and CSV format.
+This script fetches climate data from SILO API and exports it
+to both APSIM .met format and CSV format.
 """
 
 from silo_api import SILOWeatherAPI
@@ -17,10 +17,10 @@ PASSWORD = "password"
 LATITUDE = -31.75
 LONGITUDE = 117.5999984741211  # Will be rounded to 2 decimals in filename
 START_YEAR = 1990
-END_YEAR = 2020
+END_YEAR = 2024
 
-# Output directory
-OUTPUT_DIR = r"C:\Users\ibian\Desktop\ClimAdapt\SILO\SILO"
+# Output directory - Change this to your desired output location
+OUTPUT_DIR = r"C:\Users\ibian\Desktop\ClimAdapt\Anameka\Anameka_South_16_226042"
 
 
 def main():
