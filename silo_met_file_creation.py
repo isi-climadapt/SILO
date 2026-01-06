@@ -16,8 +16,8 @@ PASSWORD = "password"
 # Coordinates and date range
 LATITUDE = -31.75
 LONGITUDE = 117.5999984741211  # Will be rounded to 2 decimals in filename
-START_YEAR = 1990
-END_YEAR = 2024
+START_YEAR = 1986
+END_YEAR = 2014
 
 # Output directory - Change this to your desired output location
 OUTPUT_DIR = r"C:\Users\ibian\Desktop\ClimAdapt\Anameka\Anameka_South_16_226042"
